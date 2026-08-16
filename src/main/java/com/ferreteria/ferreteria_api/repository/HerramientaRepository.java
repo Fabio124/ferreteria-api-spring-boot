@@ -1,0 +1,9 @@
+package com.ferreteria.ferreteria_api.repository;
+
+import com.ferreteria.ferreteria_api.model.Herramienta;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface HerramientaRepository extends JpaRepository<Herramienta,Long> {
+}
